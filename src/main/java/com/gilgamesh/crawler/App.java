@@ -1,9 +1,8 @@
 package com.gilgamesh.crawler;
 
-/**
- * Hello world!
- *
- */
+
+import twitter4j.Twitter;
+
 public class App {
     public static void main( String[] args ) {
 

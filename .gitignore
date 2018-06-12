@@ -16,3 +16,5 @@ buildNumber.properties
 # intellij idea gitignore
 .idea/
 
+# credentials
+/src/main/java/com/gilgamesh/crawler/twitter4j.properties
