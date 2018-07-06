@@ -1,13 +1,12 @@
 package com.gilgamesh.crawler;
 
-import com.gilgamesh.crawler.Constants.ProjectConstants;
+import com.gilgamesh.crawler.constants.ProjectConstants;
 import com.gilgamesh.crawler.helpers.City;
 import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintStream;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -78,7 +77,7 @@ public class TwitterMiddleware {
         FileWriter fw = new FileWriter(ProjectConstants.TWEETS_PATH + tweetNumber + ".txt");
         PrintWriter pr = new PrintWriter(fw);
 
-        String place = "unknown";
+        String place = estimatedPlace;
         if (tweet.getPlace() != null) {
             place = tweet.getPlace().getFullName();
         }

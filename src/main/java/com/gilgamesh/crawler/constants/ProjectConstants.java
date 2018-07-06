@@ -1,4 +1,4 @@
-package com.gilgamesh.crawler.Constants;
+package com.gilgamesh.crawler.constants;
 
 import com.gilgamesh.crawler.helpers.City;
 
@@ -16,6 +16,14 @@ public class ProjectConstants {
     public static final String ACCESS_TOKEN_SECRET="v34aAU5CDcrccSd3rHahFtHh4n4IV7Mbrgc10B2AwtoG9";
 
     public static final String TWEETS_PATH = "./tweets/";
+    public static final String INDEX_DIRECTORY = "./indexes";
+
+    public static final String TWEET_CONTENT_NAME = "text";
+    public static final String TWEET_AUTHOR_FIELD = "author";
+    public static final String TWEET_DATE_FIELD = "date";
+    public static final String TWEET_PLACE_FIELD = "place";
+
+
 
     public static ArrayList<City> cities = new ArrayList<City>();
     public static ArrayList<String> firstOrderKeyWords = new ArrayList<>();

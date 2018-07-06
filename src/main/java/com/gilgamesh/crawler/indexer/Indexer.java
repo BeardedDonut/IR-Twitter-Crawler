@@ -1,5 +1,7 @@
 package com.gilgamesh.crawler.indexer;
 
+import com.gilgamesh.crawler.constants.ProjectConstants;
+import com.gilgamesh.crawler.helpers.TextFilter;
 import com.gilgamesh.crawler.helpers.Tweet;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
@@ -72,16 +74,16 @@ public class Indexer {
         contentType.setTokenized(true);
         contentType.setIndexOptions(IndexOptions.DOCS_AND_FREQS);
 
-        Field tweetText = new Field("text", tw.getText(), contentType);
+        Field tweetText = new Field(ProjectConstants.TWEET_CONTENT_NAME, tw.getText(), contentType);
 
         // author name
-        Field authorName = new StringField("author", tw.getName(), Field.Store.YES);
+        Field authorName = new StringField(ProjectConstants.TWEET_AUTHOR_FIELD, tw.getName(), Field.Store.YES);
 
         // date field;
-        Field date = new StringField("date", tw.getDate(), Field.Store.YES);
+        Field date = new StringField(ProjectConstants.TWEET_DATE_FIELD, tw.getDate(), Field.Store.YES);
 
         // place field
-        Field place = new StringField("place", tw.getPlace(), Field.Store.YES);
+        Field place = new StringField(ProjectConstants.TWEET_PLACE_FIELD, tw.getPlace(), Field.Store.YES);
 
         // adding fields
         doc.add(tweetText);
@@ -117,5 +119,14 @@ public class Indexer {
         tw.setText(x.toString());
 
         return tw;
+    }
+
+    public static void main(String[] args) {
+        try {
+            Indexer idx = new Indexer("./indexes/");
+            idx.indexAllTweets("./tweets/", new TextFilter());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
