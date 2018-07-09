@@ -53,7 +53,7 @@ public class TwitterMiddleware {
                 Query query = new Query(keyword);
                 query.setCount(100);
                 query.setGeoCode(new GeoLocation(c.getLatitude(), c.getLongitude()), 100, Query.KILOMETERS);
-                query.setSince("2016-01-01");
+                query.setSince("2017-01-01");
 
                 FileWriter fw = new FileWriter(ProjectConstants.FINAL_OUTPUT_LIST_PATH);
 

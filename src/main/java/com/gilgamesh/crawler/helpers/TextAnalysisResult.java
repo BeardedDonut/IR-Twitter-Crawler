@@ -60,15 +60,15 @@ public class TextAnalysisResult {
     public String toString() {
         StringBuilder x = new StringBuilder();
 
-        x.append("{\n\tname: ")
-                .append(restaurantName)
-                .append(",\n\tcity: ")
-                .append(city)
-                .append(",\n\trating: ")
-                .append(this.getRatingInStars())
-                .append(",\n\ttweet-id: ")
-                .append(tweetId)
-                .append("\n}\n");
+        x.append("{\n\t\"name\": ")
+                .append("\"" + restaurantName + "\"")
+                .append(",\n\t\"city\": ")
+                .append("\"" + city + "\"")
+                .append(",\n\t\"rating\": ")
+                .append("\"" + this.getRatingInStars() + "\"")
+                .append(",\n\t\"tweet-id\": ")
+                .append("\"" + tweetId + "\"")
+                .append("\n},\n");
 
         return x.toString();
     }
