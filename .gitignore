@@ -19,4 +19,3 @@ buildNumber.properties
 # credentials
 /src/main/java/com/gilgamesh/crawler/twitter4j.properties
 /indexes/
-/tweets/

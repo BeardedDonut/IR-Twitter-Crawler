@@ -1,0 +1,3 @@
+chicago|Mon Jul 09 21:05:41 IRDT 2018
+@Brent Ozar
+OH @pinaldave: “When you get a new client and they want the database to go faster, you don’t teach them internals. When someone walks into a restaurant and say they’re hungry, you don’t teach them where grain comes from.”

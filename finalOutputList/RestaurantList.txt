@@ -1,0 +1,60 @@
+{
+	"name": " Brasserie",
+	"city": "chicago",
+	"rating": "***",
+	"tweet-id": "106"
+},
+{
+	"name": " Africa",
+	"city": "chicago",
+	"rating": "***",
+	"tweet-id": "110"
+},
+{
+	"name": " Brasserie",
+	"city": "chicago",
+	"rating": "***",
+	"tweet-id": "115"
+},
+{
+	"name": " Brasserie",
+	"city": "chicago",
+	"rating": "***",
+	"tweet-id": "116"
+},
+{
+	"name": " Vero International Cuisine",
+	"city": " Racine",
+	"rating": "**",
+	"tweet-id": "127"
+},
+{
+	"name": " Vero International Cuisine",
+	"city": " Racine",
+	"rating": "**",
+	"tweet-id": "128"
+},
+{
+	"name": " Minghin",
+	"city": "chicago",
+	"rating": "**",
+	"tweet-id": "140"
+},
+{
+	"name": " Rickshaw Republic",
+	"city": " Lincoln Park",
+	"rating": "***",
+	"tweet-id": "182"
+},
+{
+	"name": " Southeast",
+	"city": " Asia",
+	"rating": "**",
+	"tweet-id": "191"
+},
+{
+	"name": " Bassenthwaite Lake",
+	"city": "chicago",
+	"rating": "****",
+	"tweet-id": "192"
+},
