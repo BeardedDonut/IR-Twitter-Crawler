@@ -51,11 +51,17 @@ After finding restaurants system analyzes the text of each tweet to determine th
 Finally at this stage system stores the results in a text file named `RestaurantsList.txt` in `finalOutputList` directory.
  
 #### Stage Number 3:
-At this level system index each tweet's text, and also some other information such as `Created Date`. after that system saves the index files in `indexes` folder.
+At this level system index each tweet's text, and also some other information such as `Created Date`. after that system saves the index files in `indexes` folder. so that it would be easy to search for restaurant's if it was needed.
 
+System uses `EnglishAnalyzer` for indexing which handles `Stop Word Removal`, `Lemmatization`, and `Stemming`.
+
+To search the created indexes use `QueryParser` and `IndexSearcher` class from the `Lucene` packages.
 
 ### NOTE:
-I excluded some cities from `Citis` list so that the program would terminate much sooner... uncomment the `FIXME` section for doing complete analysis
+I excluded some cities from `Citis` list so that the program would terminate much sooner... uncomment the `FIXME` section for doing complete analysis.
+
+
+I also excluded some fetched tweets from the final project package to reduce the size of the project and the final zip file. 
 
 ### Sample Result:
 Tweets (`Stage #1` output):
