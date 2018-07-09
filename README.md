@@ -29,15 +29,15 @@ It also rates each restaurant in sense of Stars using NLP analysis.
   
 ### Problems I Encounter in this Project:
   - Most of the tweets we fetched were not related to a specific restaurant.
-  - I could'nt find any solution to extract menu items from tweets.
+  - I couldn't find any solution to extract menu items from tweets.
   - My proposed heuristic to identify restaurant's name from tweets might result in a good `Precision` but it lacks a proper `Recall` factor.
-  - I should have run the process of text processing on multiple threaded to enhance the performance but due to lack of time I simply could'nt.
+  - I should have run the process of text processing on multiple threaded to enhance the performance but due to lack of time I simply couldn't.
   
 ### System Architecture:
 <img src="./reportFiles/systemDiagram.png" alt="system-Diagram"  width="" height="800">
 
 #### Stage Number 1:
-As mentioned in this stage system fetch related tweets since `2017-01-01` based on the keywords which are set in `ProjectConstant` class such as `restuarant` from some specific location which again are set in `ProjectConstant` class such `chicago`. 
+As mentioned in this stage system fetch related tweets since `2017-01-01` based on the keywords which are set in `ProjectConstant` class such as `restuarant` from some specific location which again are set in `ProjectConstant` class such as `chicago`. 
 
 After that system passes the tweets for further analysis and indexing, besides writing each tweet's text on disk to save them. it also saves the tweets in `tweets` directory.
  
@@ -89,9 +89,9 @@ Found Restaurants List (`Stage #2` output):
    Some of the analysis it can perform are: `Named Entity Recognition`, `Part of Speech Tagging`, `Sentiment Analysis`, `Summariaztion` and etc.
    it is available for 6 different languages such as `English`, `Chineese`, `French` and etc.
    
-   - Twitter4j: `Twitter4j` is an open-source unofficial Java library for `Twitter` API, which makes it quite easy to integrate with `Twitter` applications.
+  - Twitter4j: `Twitter4j` is an open-source unofficial Java library for `Twitter` API, which makes it quite easy to integrate with `Twitter` applications.
       
-   - Maven: `Apache Maven` is a dependency management and build automation tool for Java projects.
+  - Maven: `Apache Maven` is a dependency management and build automation tool for Java projects.
         
 
 ### Author : 
