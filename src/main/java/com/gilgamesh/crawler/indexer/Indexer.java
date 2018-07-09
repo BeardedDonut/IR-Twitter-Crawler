@@ -3,7 +3,6 @@ package com.gilgamesh.crawler.indexer;
 import com.gilgamesh.crawler.constants.ProjectConstants;
 import com.gilgamesh.crawler.helpers.TextFilter;
 import com.gilgamesh.crawler.helpers.Tweet;
-import org.apache.commons.io.FilenameUtils;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;

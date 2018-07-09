@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileFilter;
 
 /**
+ * ".txt" file filter
  * @author navid
  *         Project-Name: crawler
  *         Date: 7/7/18.

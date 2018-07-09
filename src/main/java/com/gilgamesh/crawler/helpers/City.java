@@ -1,6 +1,7 @@
 package com.gilgamesh.crawler.helpers;
 
 /**
+ * This class contains each city's essential information
  * @author navid
  *         Project-Name: crawler
  *         Date: 7/3/18.

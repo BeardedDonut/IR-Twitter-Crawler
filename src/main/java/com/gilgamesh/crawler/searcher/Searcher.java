@@ -50,4 +50,8 @@ public class Searcher {
     public Query generateQuery(String queryString) throws ParseException {
         return queryParser.parse(queryString);
     }
+
+    public static void main(String[] args) {
+
+    }
 }

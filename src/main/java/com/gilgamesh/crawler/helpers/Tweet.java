@@ -1,15 +1,16 @@
 package com.gilgamesh.crawler.helpers;
 
 /**
+ * This class contains essential information for a Tweet
  * @author navid
  *         Project-Name: crawler
  *         Date: 7/6/18.
  */
 public class Tweet {
-    String text;
-    String name;
-    String date;
-    String place;
+    private String text;
+    private String name;
+    private String date;
+    private String place;
 
     public String getText() {
         return text;

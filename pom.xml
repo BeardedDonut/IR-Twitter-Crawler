@@ -63,6 +63,25 @@
       <version>6.6.1</version>
     </dependency>
 
+    <dependency>
+      <groupId>edu.stanford.nlp</groupId>
+      <artifactId>stanford-corenlp</artifactId>
+      <version>3.9.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>edu.stanford.nlp</groupId>
+      <artifactId>stanford-corenlp</artifactId>
+      <version>3.9.1</version>
+      <classifier>models</classifier>
+    </dependency>
+
+    <dependency>
+      <groupId>edu.stanford.nlp</groupId>
+      <artifactId>stanford-parser</artifactId>
+      <version>3.9.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>
