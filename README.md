@@ -1,5 +1,5 @@
 # IR-Twitter-Crawler
-This project was implemented for Information Retrieval Project course so it wont receive regular updates and it is as it is. :D
+This application was implemented as the project of the Information Retrieval course so it wont receive regular updates and it is as it is. :D
 
 ## Project Description:
 This is a crawler project which crawls the twitter and searches for the restaurant's among tweets.
