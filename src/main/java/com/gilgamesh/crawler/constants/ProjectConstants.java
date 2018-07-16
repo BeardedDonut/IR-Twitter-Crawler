@@ -33,11 +33,11 @@ public class ProjectConstants {
     public static ArrayList<String> secondOrderKeyWrods = new ArrayList<>();
     static {
         cities.add(new City("chicago", 41.8781F, -87.6298F));
-//        cities.add(new City("new-york", 40.7128F, -74.0060F));
-//        cities.add(new City("boston",42.3601F, -71.0589F));
-//        cities.add(new City("seattle", 47.6062F, -122.3321F));
-//        cities.add(new City("san-francisco", 37.7749F, -122.4194F));
-//        cities.add(new City("los-angeles", 34.0522F, -118.2437F));
+        cities.add(new City("new-york", 40.7128F, -74.0060F));
+        cities.add(new City("boston",42.3601F, -71.0589F));
+        cities.add(new City("seattle", 47.6062F, -122.3321F));
+        cities.add(new City("san-francisco", 37.7749F, -122.4194F));
+        cities.add(new City("los-angeles", 34.0522F, -118.2437F));
 
 
         firstOrderKeyWords.add("restaurant");
