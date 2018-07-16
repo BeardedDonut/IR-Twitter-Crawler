@@ -1,10 +1,5 @@
 # IR-Twitter-Crawler
-Student and Project General Information:
-  - Course: Information Retrieval
-  - Professor: Prof. Mohsen Kahani
-  - Student Name: Navid Alipour
-  - Student Number: 9312430379
-  - Selected Project Number: 2
+This project was implemented for Information Retrieval Project course so it wont receive regular updates and it is as it is. :D
 
 ## Project Description:
 This is a crawler project which crawls the twitter and searches for the restaurant's among tweets.
@@ -58,7 +53,7 @@ System uses `EnglishAnalyzer` for indexing which handles `Stop Word Removal`, `L
 To search the created indexes use `QueryParser` and `IndexSearcher` class from the `Lucene` packages.
 
 ### NOTE:
-I excluded some cities from `Citis` list so that the program would terminate much sooner... uncomment the `FIXME` section for doing complete analysis.
+I excluded some cities from `Cities` list so that the program would terminate much quicker... uncomment the `FIXME` section for doing complete analysis.
 
 
 I also excluded some fetched tweets from the final project package to reduce the size of the project and the final zip file. 
